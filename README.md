@@ -1,1 +1,4 @@
-# sis313g1-i26-VilamaniCarlos_Jes-sAntonio
+# Vilamani Carlos Jesús Antonio
+
+Materia: Diseño y programación grafica  
+Sigla: SIS-313
