@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5 - JavaScript</title>
+</head>
+<body>
+
+    <h1>PRÁCTICA N°5 - JavaScript</h1>
+
+    <h2>1. Formas de conectar HTML con JavaScript</h2>
+    <p>Existen dos formas principales de conectar JavaScript con HTML:</p>
+    <h3>a) JavaScript interno</h3>
+    <p>
+        Consiste en escribir el código JavaScript dentro del mismo archivo HTML
+        utilizando la etiqueta &lt;script&gt;.
+    </p>
+    <p>Ejemplo:</p>
+    <pre>
+        &lt;script&gt;
+        alert("Hola Mundo");
+        &lt;/script&gt;
+    </pre>
+    
+    <h3>b) JavaScript externo</h3>
+
+    <p>
+        Consiste en crear un archivo separado con extensión .js y enlazarlo
+        al HTML mediante la etiqueta &lt;script&gt;.
+    </p>
+    <p>Ejemplo:</p>
+    <pre>
+        &lt;script src="script.js"&gt;&lt;/script&gt;
+    </pre>
+    <p>
+        Esta forma es la más recomendada porque permite organizar mejor el código.
+    </p>
+    <h2>2. Cómo visualizar resultados en la consola del navegador</h2>
+    <ol>
+        <li>Abrir el navegador web.</li>
+        <li>Abrir el archivo HTML.</li>
+        <li>Presionar F12 o clic derecho -> Inspeccionar.</li>
+        <li>Seleccionar la pestaña "Consola".</li>
+        <li>Utilizar console.log() en JavaScript.</li>
+    </ol>
+    <p>Ejemplo:</p>
+    <pre>
+        console.log("Hola desde JavaScript");
+    </pre>
+    <p>
+        El mensaje aparecerá en la consola del navegador.
+    </p>
+
+
+    <h2>3. Variables en JavaScript</h2>
+
+    <p>
+        Las variables son espacios en memoria que sirven para almacenar datos.
+    </p>
+
+    <h3>a) var</h3>
+
+    <pre>
+        var nombre = "Juan";
+        console.log(nombre);
+    </pre>
+    <p>
+        var ya no se recomienda porque puede causar errores debido a su alcance.
+    </p>
+
+    <h3>b) let</h3>
+    <pre>
+        let edad = 20;
+        console.log(edad);
+    </pre>
+    <p>
+        let permite modificar el valor de la variable.
+    </p>
+
+    <h3>c) const</h3>
+
+    <pre>
+        const PI = 3.1416;
+        console.log(PI);
+    </pre>
+    <p>const se utiliza para valores que no cambiarán.</p>
+    <p>Actualmente se recomienda utilizar let y const.</p>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
