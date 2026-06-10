@@ -13,7 +13,7 @@
     justify-content: center;
     background-color: #333;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .btn{
     font-size: 30px;
@@ -44,7 +44,7 @@
     text-align: right;
     color: rgb(0, 0, 0);
     background-color: #BDC5AE;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .botones{
     display: flex;
